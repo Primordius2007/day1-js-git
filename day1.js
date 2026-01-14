@@ -34,3 +34,12 @@ let sum = numbers.reduce((total, num) =>{
     return total + num;
 } ,0);
 console.log(sum);
+
+let greaterthan3= numbers.filter( num => num > 3);
+console.log(greaterthan3);
+
+let letters = ["a", "b", "c"];
+let upperletters = letters.map(function(letter){
+    return letter.toUpperCase();
+});
+console.log(upperletters);
